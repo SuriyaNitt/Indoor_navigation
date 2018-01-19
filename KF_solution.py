@@ -177,7 +177,7 @@ if __name__ == '__main__':
 
         movementX += distanceX
         movementY += distanceY
-        movementZ += distanceZ
+        movementZ += -1*distanceZ
 
         pathX.append(movementX)
         pathY.append(movementY)
